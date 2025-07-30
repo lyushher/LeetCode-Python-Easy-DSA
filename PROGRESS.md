@@ -11,4 +11,12 @@
 
 **Notes:** Practiced brute force and greedy techniques. Focused on understanding nested iteration and real-time min tracking.
 
+---
 
+## 📅 Day 2 – Arrays & Hashing Fundamentals
+
+- ✅ [Contains Duplicate](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-02/contains_duplicate.py)
+- ✅ [Valid Anagran](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-02/valid_anagram.py)
+
+**Notes:** Practiced common hashing techniques including membership checks with sets and character frequency mapping using dictionaries.  
+Learned how to reduce time complexity with hash-based lookups in array and string problems.

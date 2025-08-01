@@ -7,7 +7,7 @@
 
 
 
-from collections import Counter    # import counter to count occurrences of elements in an array
+from collections import Counter    # import 'counter' to count occurrences of elements in an array
 
 class Solution:
     def intersect(self, nums1, nums2):
@@ -24,8 +24,8 @@ class Solution:
         for num in nums2:
             #if the current number exists in the frequency map and count is more than 0
             if count[num] > 0:
-                result.append(num)     # add it to the result
-                count[num] -= 1        # decrease the count in the hash map
+                result.append(num) 
+                count[num] -= 1
 
         #return the final list of intersecting elements
         return result

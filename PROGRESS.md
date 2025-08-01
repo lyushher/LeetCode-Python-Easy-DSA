@@ -20,3 +20,12 @@
 
 **Notes:** Practiced common hashing techniques including membership checks with sets and character frequency mapping using dictionaries.  
 Learned how to reduce time complexity with hash-based lookups in array and string problems.
+
+## 📅 Day 3 - Hash Maps & Voting Algorithm
+
+- ✅ [Intersection of Two Arrays II](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-03/intersection_of_two_arrays_2.py)
+- ✅ [Majority Element](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-03/majority_element.py)
+
+**Notes:**  Utilized hash maps to solve array intersection problems with duplicate tracking.  
+Applied Boyer–Moore Voting to optimize majority element detection to O(1) space — a core interview pattern.
+

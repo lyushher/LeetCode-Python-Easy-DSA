@@ -12,6 +12,7 @@ This approach ensures we count duplicates correctly.
 
 ### 📊 Example
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
+
 Output: [2,2] → Because 2 appears twice in both arrays
 
 ### ⏱️ Complexity
@@ -33,6 +34,7 @@ this method always returns the correct answer in a single pass using constant sp
 
 ### 📊 Example
 Input: nums = [3,2,3]
+
 Output: 3 → Because 3 appears more than ⌊3/2⌋ = 1 time
 
 ### ⏱️ Complexity

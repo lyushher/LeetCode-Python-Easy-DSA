@@ -18,8 +18,8 @@
 - ✅ [Contains Duplicate](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-02/contains_duplicate.py)
 - ✅ [Valid Anagran](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-02/valid_anagram.py)
 
-**Notes:** Practiced common hashing techniques including membership checks with sets and character frequency mapping using dictionaries.  
-Learned how to reduce time complexity with hash-based lookups in array and string problems.
+**Notes:** Applied hashing strategies to detect duplicates and analyze character distributions in strings.
+Focused on optimizing search and comparison operations using constant-time lookups with sets and dictionaries.
 
 ---
 
@@ -37,8 +37,8 @@ Applied Boyer–Moore Voting to optimize majority element detection to O(1) spac
 - ✅ [Single Number](https://leetcode.com/problems/single-number/description/)
 - ✅ [Missing Number](https://leetcode.com/problems/missing-number/)
 
-**Notes:** Practiced XOR-based techniques to eliminate duplicates and identify missing values in linear time using constant space.
-Learned how to leverage bitwise identities like `a ^ a = 0` to simplify problems involving number pairs and ranges.
+**Notes:** Explored XOR-based logic to isolate non-duplicate values and determine missing elements efficiently.
+Applied bit-level identities like `a ^ a = 0` to reduce problems into linear-time, constant-space operations.
 
 ---
 
@@ -46,5 +46,15 @@ Learned how to leverage bitwise identities like `a ^ a = 0` to simplify problems
 - ✅ [Merge Sorted Array](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-05/merged_sorted_array.py)
 - ✅ [Plus One](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-05/plus_one.py)
 
-**Notes:** Practiced in-place array manipulation by merging sorted arrays from the back to avoid overwriting.
-Simulated digit-wise addition to handle carry operations without using string or integer conversions — a classic array simulation technique.
+**Notes:** Focused on in-place merging by shifting from the back to preserve original values during overwrite.
+Handled number incrementation digit by digit, managing carry propagation without relying on conversions.
+
+---
+
+## 📅 Day 6 – String Filtering & Substring Matching
+- ✅ [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- ✅ [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+
+**Notes:** Cleaned and normalized string inputs to handle case and symbol inconsistencies.
+Used a sliding window approach to locate substrings, reinforcing logic used in low-level pattern matching problems.
+

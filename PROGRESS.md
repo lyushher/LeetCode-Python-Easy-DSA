@@ -40,3 +40,11 @@ Applied Boyer–Moore Voting to optimize majority element detection to O(1) spac
 **Notes:** Practiced XOR-based techniques to eliminate duplicates and identify missing values in linear time using constant space.
 Learned how to leverage bitwise identities like `a ^ a = 0` to simplify problems involving number pairs and ranges.
 
+---
+
+## 📅 Day 5 – In-Place Algorithms & Simulation Logic
+- ✅ [Merge Sorted Array](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-05/merged_sorted_array.py)
+- ✅ [Plus One](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-05/plus_one.py)
+
+**Notes:** Practiced in-place array manipulation by merging sorted arrays from the back to avoid overwriting.
+Simulated digit-wise addition to handle carry operations without using string or integer conversions — a classic array simulation technique.

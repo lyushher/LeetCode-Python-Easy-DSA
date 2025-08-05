@@ -58,3 +58,12 @@ Handled number incrementation digit by digit, managing carry propagation without
 **Notes:** Cleaned and normalized string inputs to handle case and symbol inconsistencies.
 Used a sliding window approach to locate substrings, reinforcing logic used in low-level pattern matching problems.
 
+---
+
+## 📅 Day 7 – Two-Pointer Reversal & Frequency Filtering
+- ✅ [Reverse String](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-07/reverse_string.py)
+- ✅ [First Unique Character in a String](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-07/first_unique_character_in_a_string.py)
+
+**Notes:** Reversed strings in-place using the two-pointer technique, avoiding additional memory usage.
+Counted character frequencies to identify the first non-repeating character — a common pattern in real-world text parsing and filtering tasks.
+

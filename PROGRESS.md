@@ -67,3 +67,11 @@ Used a sliding window approach to locate substrings, reinforcing logic used in l
 **Notes:** Reversed strings in-place using the two-pointer technique, avoiding additional memory usage.
 Counted character frequencies to identify the first non-repeating character — a common pattern in real-world text parsing and filtering tasks.
 
+---
+
+## 📅 Day 8 – Stack Validation & In-Place Deduplication
+- ✅ [Valid Parentheses](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-08/valid_parentheses.py)
+- ✅ [Remove Duplicates from Sorted Array](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-08/remove_duplicates_from_sorted_array.py)
+
+**Notes:** Used a stack to validate proper matching and nesting of parentheses — a common pattern in syntax checking and expression parsing.
+Employed a two-pointer strategy to remove duplicates in sorted arrays without extra space, reinforcing in-place overwrite techniques.

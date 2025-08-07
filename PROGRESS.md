@@ -84,3 +84,14 @@ Employed a two-pointer strategy to remove duplicates in sorted arrays without ex
 
 **Notes:** Designed queue and stack variations using only stack operations, focusing on O(1) amortized performance.
 Implemented a queue with two stacks for efficient enqueue and dequeue, and a stack that tracks the minimum element in constant time via an auxiliary stack.
+
+---
+
+## 📅 Day 10 – String Parsing & Linear Scans
+- ✅ [Roman to Integer](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-10/roman_to_integer.py)
+- ✅ [Length of Last Word](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-10/length_of_last_word.py)
+
+**Notes:** Strengthened string processing skills through two distinct linear-scan problems.
+Applied right-to-left traversal with conditional subtraction to accurately convert Roman numerals.
+Used trimming and reverse scanning to compute the final word length without additional data structures, ensuring both solutions remain optimal and memory-efficient.
+

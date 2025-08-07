@@ -75,3 +75,12 @@ Counted character frequencies to identify the first non-repeating character — 
 
 **Notes:** Used a stack to validate proper matching and nesting of parentheses — a common pattern in syntax checking and expression parsing.
 Employed a two-pointer strategy to remove duplicates in sorted arrays without extra space, reinforcing in-place overwrite techniques.
+
+---
+
+## 📅 Day 9 – Stack-Based Data Structure Design
+- ✅ [Implement Queue using Stacks](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-09/implement_queue_using_stacks.py)
+- ✅ [Min Stack](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-09/min_stack.py)
+
+**Notes:** Designed queue and stack variations using only stack operations, focusing on O(1) amortized performance.
+Implemented a queue with two stacks for efficient enqueue and dequeue, and a stack that tracks the minimum element in constant time via an auxiliary stack.

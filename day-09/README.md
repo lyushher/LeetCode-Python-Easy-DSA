@@ -14,11 +14,13 @@ Input: ["MyQueue","push","push","peek","pop","empty"], [[],[1],[2],[],[],[]]
 Output: [null,null,null,1,1,false]
 
 ### ⏱️ Complexity
-Time: O(1) amortized for each operation
+- Time: O(1) amortized for each operation
 
-Space: O(n) – Combined storage in both stacks
+- Space: O(n) – Combined storage in both stacks
 
 👉 See full code in [implement_queue_using_stacks.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-09/implement_queue_using_stacks.py)
+
+---
 
 ## ⭐️ Min Stack – 9.2
 ### 🔗 Problem
@@ -35,8 +37,8 @@ Input: ["MinStack","push","push","push","getMin","pop","top","getMin"], [[],[-2]
 Output: [null,null,null,null,-3,null,0,-2]
 
 ### ⏱️ Complexity
-Time: O(1) for all operations
+- Time: O(1) for all operations
 
-Space: O(n) – Values stored in two stacks
+- Space: O(n) – Values stored in two stacks
 
 👉 See full code in [min_stack.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-09/min_stack.py)

@@ -14,11 +14,13 @@ Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
 
 ### ⏱️ Complexity
-Time: O(n) – Each character is visited once
+- Time: O(n) – Each character is visited once
 
-Space: O(1) – In-place with constant memory
+- Space: O(1) – In-place with constant memory
 
 👉 See full code in [reverse_string.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-07/reverse_string.py)
+
+---
 
 ## ⭐️ First Unique Character in a String – 7.2
 ### 🔗 Problem
@@ -35,9 +37,9 @@ Input: s = "leetcode"
 Output: 0 → Because 'l' is the first character that appears only once
 
 ### ⏱️ Complexity
-Time: O(n) – One pass to count, one pass to scan
+- Time: O(n) – One pass to count, one pass to scan
 
-Space: O(1) – Max 26 lowercase characters
+- Space: O(1) – Max 26 lowercase characters
 
 👉 See full code in [first_unique_character.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-07/first_unique_character_in_a_string.py)
 

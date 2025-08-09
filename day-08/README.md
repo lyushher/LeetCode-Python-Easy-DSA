@@ -14,11 +14,13 @@ Input: `s = "()[]{}"`
 Output: true → Because every opening bracket has a valid matching closing bracket
 
 ### ⏱️ Complexity
-Time: O(n) – One pass through the string
+- Time: O(n) – One pass through the string
 
-Space: O(n) – Stack space in the worst case
+- Space: O(n) – Stack space in the worst case
 
 👉 See full code in [valid_parentheses.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-08/valid_parentheses.py)
+
+---
 
 ## ⭐️ Remove Duplicates from Sorted Array – 8.2
 ### 🔗 Problem
@@ -35,8 +37,8 @@ Input: `nums = [1,1,2]`
 Output: 2 → Because the array becomes [1,2,_] with the first 2 values being unique
 
 ### ⏱️ Complexity
-Time: O(n) – One pass through the array
+- Time: O(n) – One pass through the array
 
-Space: O(1) – In-place with constant space
+- Space: O(1) – In-place with constant space
 
 👉 See full code in [remove_duplicates.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-08/remove_duplicates_from_sorted_array.py)

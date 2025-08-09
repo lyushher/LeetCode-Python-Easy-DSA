@@ -104,4 +104,11 @@ Used trimming and reverse scanning to compute the final word length without addi
 **Notes:** Reversed pointers iteratively to flip a singly linked list in-place with constant extra space.
 Merged two sorted lists using a dummy head and tail pointer, attaching the smaller node each step to build a single sorted list efficiently.
 
+---
 
+## 📅 Day 12 – Linked List Cycle Detection & Palindrome Check
+- ✅ [Linked List Cycle](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-12/linked_list_cycle.py)
+- ✅ [Palindrome Linked List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-12/palindrome_linked_list.py)
+
+**Notes:** Detected cycles in a linked list using Floyd’s Tortoise and Hare algorithm, achieving O(1) space without modifying the list.
+Checked if a linked list is a palindrome by finding the middle, reversing the second half in-place, and comparing both halves — an efficient approach that avoids extra space.

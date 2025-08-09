@@ -14,11 +14,13 @@ Input: s = "MCMXCIV"
 Output: 1994 → Because M(1000) + CM(900) + XC(90) + IV(4) = 1994
 
 ### ⏱️ Complexity
-Time: O(n) – One pass through the string
+- Time: O(n) – One pass through the string
 
-Space: O(1) – Constant extra space
+- Space: O(1) – Constant extra space
 
 👉 See full code in [roman_to_integer.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-10/roman_to_integer.py)
+
+---
 
 ## ⭐️ Length of Last Word – 10.2
 ### 🔗 Problem
@@ -35,8 +37,8 @@ Input: s = "Hello World"
 Output: 5 → Because the last word "World" has 5 letters
 
 ### ⏱️ Complexity
-Time: O(n) – Traverses the string once for trimming and splitting
+- Time: O(n) – Traverses the string once for trimming and splitting
 
-Space: O(n) – Due to storing the word list
+- Space: O(n) – Due to storing the word list
 
 👉 See full code in [length_of_last_word.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-10/length_of_last_word.py)

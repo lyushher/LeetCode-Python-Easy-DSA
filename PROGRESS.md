@@ -95,3 +95,13 @@ Implemented a queue with two stacks for efficient enqueue and dequeue, and a sta
 Applied right-to-left traversal with conditional subtraction to accurately convert Roman numerals.
 Used trimming and reverse scanning to compute the final word length without additional data structures, ensuring both solutions remain optimal and memory-efficient.
 
+---
+
+## 📅 Day 11 – Linked List Rewiring & Merging
+- ✅ [Reverse Linked List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-11/reverse_linked_list.py)
+- ✅ [Merge Two Sorted Lists](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-11/merge_two_sorted_lists.py)
+
+**Notes:** Reversed pointers iteratively to flip a singly linked list in-place with constant extra space.
+Merged two sorted lists using a dummy head and tail pointer, attaching the smaller node each step to build a single sorted list efficiently.
+
+

@@ -112,3 +112,12 @@ Merged two sorted lists using a dummy head and tail pointer, attaching the small
 
 **Notes:** Detected cycles in a linked list using Floyd’s Tortoise and Hare algorithm, achieving O(1) space without modifying the list.
 Checked if a linked list is a palindrome by finding the middle, reversing the second half in-place, and comparing both halves — an efficient approach that avoids extra space.
+
+---
+
+## 📅 Day 13 – Linked List Deletion & Deduplication
+- ✅ [Delete Node in a Linked List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-13/delete_node_in_a_linked_list.py)
+- ✅ [Remove Duplicates from Sorted List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-13/remove_duplicates_from_sorted_list.py)
+
+**Notes:** Removed a node without head access by copying data from the next node and bypassing it — a constant-time, in-place deletion trick.
+Eliminated consecutive duplicates in a sorted linked list with a single traversal, adjusting pointers to maintain sorted order and ensure all elements are unique without extra space.

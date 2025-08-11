@@ -121,3 +121,12 @@ Checked if a linked list is a palindrome by finding the middle, reversing the se
 
 **Notes:** Removed a node without head access by copying data from the next node and bypassing it — a constant-time, in-place deletion trick.
 Eliminated consecutive duplicates in a sorted linked list with a single traversal, adjusting pointers to maintain sorted order and ensure all elements are unique without extra space.
+
+---
+
+## 📅 Day 14 – Linked List Midpoint & Intersection Detection
+- ✅ [Middle of the Linked List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-14/middle_of_the_linked_list.py)
+- ✅ [Intersection of Two Linked Lists](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-14/intersection_of_two_linked_lists.py)
+
+**Notes:** Found the middle of a linked list using the fast and slow pointer method, ensuring O(1) space and correctly returning the second middle node when the list length is even.
+Detected the intersection node of two linked lists with the two-pointer switching technique, guaranteeing both pointers traverse equal total distances without extra memory, achieving optimal O(n + m) time and O(1) space complexity.

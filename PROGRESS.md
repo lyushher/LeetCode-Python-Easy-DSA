@@ -130,3 +130,12 @@ Eliminated consecutive duplicates in a sorted linked list with a single traversa
 
 **Notes:** Found the middle of a linked list using the fast and slow pointer method, ensuring O(1) space and correctly returning the second middle node when the list length is even.
 Detected the intersection node of two linked lists with the two-pointer switching technique, guaranteeing both pointers traverse equal total distances without extra memory, achieving optimal O(n + m) time and O(1) space complexity.
+
+---
+
+## 📅 Day 15 – Custom Data Structure Design
+- ✅ [Design Linked List](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-15/design_linked_list.py)
+- ✅ [Design HashMap](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-15/design_hashmap.py)
+
+**Notes:** Built a fully functional singly linked list supporting index-based retrieval, insertion, and deletion, with O(1) head/tail updates and size tracking for constant-time boundary checks.
+Implemented a hash map using separate chaining with a prime-sized bucket array for improved key distribution. Achieved O(1) average-case put, get, and remove operations, while gracefully handling collisions via linked lists — noting that worst-case performance can degrade to O(n) if many keys hash to the same bucket.

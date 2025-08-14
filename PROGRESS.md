@@ -139,3 +139,19 @@ Detected the intersection node of two linked lists with the two-pointer switchin
 
 **Notes:** Built a fully functional singly linked list supporting index-based retrieval, insertion, and deletion, with O(1) head/tail updates and size tracking for constant-time boundary checks.
 Implemented a hash map using separate chaining with a prime-sized bucket array for improved key distribution. Achieved O(1) average-case put, get, and remove operations, while gracefully handling collisions via linked lists — noting that worst-case performance can degrade to O(n) if many keys hash to the same bucket.
+
+---
+
+## 📅 Day 16 – Math Foundations & Basic Looping
+
+- ✅ [Factorial Trailing Zeroes](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-16/fibonacci_number.py)
+
+- ✅ [Count and Say](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-16/binary_search.py)
+
+**Notes:**
+Calculated the number of trailing zeroes in n! by counting how many times 5 appears as a factor in the numbers from 1 to n. This avoids full factorial computation and ensures logarithmic time with constant space.
+
+Generated the n-th term of the count-and-say sequence by simulating how humans would describe digits in the previous term — grouping consecutive characters, counting them, and appending results in a loop. Practiced string construction and pattern recognition, which strengthens iterative string manipulation and edge-case handling.
+
+
+

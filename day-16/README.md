@@ -1,5 +1,5 @@
-# Day - 17
-## ⭐️ Fibonacci Number – 17.1
+# Day - 16
+## ⭐️ Fibonacci Number – 16.1
 ### 🔗 Problem
 
 [LeetCode #509 – Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
@@ -26,7 +26,7 @@ Output: 3 -> Because F(4) = F(3) + F(2) = 2 + 1 = 3
 
 ---
 
-## ⭐️ Binary Search – 17.2
+## ⭐️ Binary Search – 16.2
 ### 🔗 Problem
 
 [LeetCode #704 – Binary Search](https://leetcode.com/problems/binary-search/)

@@ -153,5 +153,16 @@ Calculated the number of trailing zeroes in n! by counting how many times 5 appe
 
 Generated the n-th term of the count-and-say sequence by simulating how humans would describe digits in the previous term — grouping consecutive characters, counting them, and appending results in a loop. Practiced string construction and pattern recognition, which strengthens iterative string manipulation and edge-case handling.
 
+---
+
+## 📅 Day 17 – Binary Search Applications
+
+- ✅ [Find Smallest Letter Greater Than Target](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-17/find_smallest_letter_greater_than_target.py)
+- ✅ [Guess Number Higher or Lower](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-17/guess_number_higher_or_lower.py)
+
+**Notes:**
+Applied binary search to locate the smallest letter strictly greater than a target in a sorted list. Leveraged sorted order to achieve O(log n) performance and implemented wrap-around logic to return the first element if no letter exceeded the target.
+
+Implemented a binary search guessing strategy to find a hidden number within a range using the provided `guess()` API. Adjusted the search boundaries based on API feedback (`-1`,` 1`, or`0`), ensuring minimal guesses and logarithmic time complexity.
 
 

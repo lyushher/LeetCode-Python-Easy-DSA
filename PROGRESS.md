@@ -148,8 +148,7 @@ Implemented a hash map using separate chaining with a prime-sized bucket array f
 
 - ✅ [Count and Say](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-16/binary_search.py)
 
-**Notes:**
-Calculated the number of trailing zeroes in n! by counting how many times 5 appears as a factor in the numbers from 1 to n. This avoids full factorial computation and ensures logarithmic time with constant space.
+**Notes:** Calculated the number of trailing zeroes in n! by counting how many times 5 appears as a factor in the numbers from 1 to n. This avoids full factorial computation and ensures logarithmic time with constant space.
 
 Generated the n-th term of the count-and-say sequence by simulating how humans would describe digits in the previous term — grouping consecutive characters, counting them, and appending results in a loop. Practiced string construction and pattern recognition, which strengthens iterative string manipulation and edge-case handling.
 
@@ -160,9 +159,14 @@ Generated the n-th term of the count-and-say sequence by simulating how humans w
 - ✅ [Find Smallest Letter Greater Than Target](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-17/find_smallest_letter_greater_than_target.py)
 - ✅ [Guess Number Higher or Lower](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-17/guess_number_higher_or_lower.py)
 
-**Notes:**
-Applied binary search to locate the smallest letter strictly greater than a target in a sorted list. Leveraged sorted order to achieve O(log n) performance and implemented wrap-around logic to return the first element if no letter exceeded the target.
+**Notes:** Applied binary search to locate the smallest letter strictly greater than a target in a sorted list. Leveraged sorted order to achieve O(log n) performance and implemented wrap-around logic to return the first element if no letter exceeded the target.
 
 Implemented a binary search guessing strategy to find a hidden number within a range using the provided `guess()` API. Adjusted the search boundaries based on API feedback (`-1`,` 1`, or`0`), ensuring minimal guesses and logarithmic time complexity.
 
+---
 
+## 📅 Day 18 – Binary Search Fundamentals
+- ✅ [Search Insert Position](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-18/search_insert_position.py)
+- ✅ [First Bad Version](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-18/first_bad_version.py)
+
+**Notes:** Combined two fundamental binary search patterns — first, locating either the exact target index or its correct insertion point in a sorted array by adjusting left and right boundaries until convergence, ensuring that the final `left` pointer provides the insertion index without extra passes; second, pinpointing the earliest bad version in a sequence by integrating the `isBadVersion()` API into the search loop, recording each bad mid as a candidate and narrowing the range toward the earliest occurrence — both solutions halving the search space at each step to achieve optimal O(log n) time with constant O(1) space usage.

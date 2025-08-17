@@ -170,3 +170,12 @@ Implemented a binary search guessing strategy to find a hidden number within a r
 - ✅ [First Bad Version](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-18/first_bad_version.py)
 
 **Notes:** Combined two fundamental binary search patterns — first, locating either the exact target index or its correct insertion point in a sorted array by adjusting left and right boundaries until convergence, ensuring that the final `left` pointer provides the insertion index without extra passes; second, pinpointing the earliest bad version in a sequence by integrating the `isBadVersion()` API into the search loop, recording each bad mid as a candidate and narrowing the range toward the earliest occurrence — both solutions halving the search space at each step to achieve optimal O(log n) time with constant O(1) space usage.
+
+---
+
+## 📅 Day 19 – Integer Roots & Perfect Squares
+- ✅ [Sqrt(x)](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-19/sqrt_x.py)
+- ✅ [Valid Perfect Square](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-19/valid_perfect_square.py)
+
+**Notes:**
+Practiced two fundamental problems around square roots using binary search. In the first, calculated the integer square root by repeatedly narrowing the range until finding the largest mid whose square is less than or equal to `x`, ensuring the result is the floor of the true square root. In the second, verified whether a number is a perfect square by testing midpoints in the search range and checking if any squared value equals the input, guaranteeing logarithmic runtime without using built-in math functions.

@@ -179,3 +179,10 @@ Implemented a binary search guessing strategy to find a hidden number within a r
 
 **Notes:**
 Practiced two fundamental problems around square roots using binary search. In the first, calculated the integer square root by repeatedly narrowing the range until finding the largest mid whose square is less than or equal to `x`, ensuring the result is the floor of the true square root. In the second, verified whether a number is a perfect square by testing midpoints in the search range and checking if any squared value equals the input, guaranteeing logarithmic runtime without using built-in math functions.
+
+## 📅 Day 20 – Bit Manipulation Basics
+- ✅ [Power of Two](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/power_of_two.py)
+- ✅ [Number of 1 Bits]([https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/power_of_two.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/number_of_1_bits.py))
+
+**Notes:**
+Explored two classic bit manipulation problems. In the first, verified whether a number is a power of two by leveraging the property that such numbers have exactly one set bit in their binary representation, using the condition `n > 0` and `n & (n - 1) == 0` for a constant-time check. In the second, counted the number of set bits in an integer by applying Brian Kernighan’s algorithm, repeatedly clearing the lowest set bit with `n & (n - 1)` and incrementing a counter, which ensures efficient O(k) runtime where k is the number of 1-bits. Both problems highlight how bitwise operations provide elegant, high-performance solutions to fundamental questions.

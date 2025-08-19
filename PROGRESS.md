@@ -186,3 +186,13 @@ Practiced two fundamental problems around square roots using binary search. In t
 
 **Notes:**
 Explored two classic bit manipulation problems. In the first, verified whether a number is a power of two by leveraging the property that such numbers have exactly one set bit in their binary representation, using the condition `n > 0` and `n & (n - 1) == 0` for a constant-time check. In the second, counted the number of set bits in an integer by applying Brian Kernighan’s algorithm, repeatedly clearing the lowest set bit with `n & (n - 1)` and incrementing a counter, which ensures efficient O(k) runtime where k is the number of 1-bits. Both problems highlight how bitwise operations provide elegant, high-performance solutions to fundamental questions.
+
+---
+
+📅 Day 21 – Tree Depth & Structural Equality
+
+- ✅ [Maximum Depth of Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-21/maximum_depth_of_binary_tree.py)
+- ✅ [Same Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-21/same_tree.py)
+
+**Notes:**
+Worked on two fundamental binary tree problems. In the first, computed the maximum depth of a binary tree by recursively exploring both subtrees and returning `1 + max(left, right)`, ensuring every node is visited exactly once and the longest path from root to leaf is measured. In the second, determined whether two trees are identical by recursively comparing node values and structure in parallel, confirming equality only when both subtrees matched completely. These problems reinforce core DFS recursion patterns on trees, emphasizing structural traversal and balanced handling of base cases.

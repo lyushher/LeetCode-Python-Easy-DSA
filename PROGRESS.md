@@ -182,17 +182,25 @@ Practiced two fundamental problems around square roots using binary search. In t
 
 ## 📅 Day 20 – Bit Manipulation Basics
 - ✅ [Power of Two](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/power_of_two.py)
-- ✅ [Number of 1 Bits]([https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/power_of_two.py](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/number_of_1_bits.py))
+- ✅ [Number of 1 Bits](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-20/number_of_1_bits.py)
 
 **Notes:**
 Explored two classic bit manipulation problems. In the first, verified whether a number is a power of two by leveraging the property that such numbers have exactly one set bit in their binary representation, using the condition `n > 0` and `n & (n - 1) == 0` for a constant-time check. In the second, counted the number of set bits in an integer by applying Brian Kernighan’s algorithm, repeatedly clearing the lowest set bit with `n & (n - 1)` and incrementing a counter, which ensures efficient O(k) runtime where k is the number of 1-bits. Both problems highlight how bitwise operations provide elegant, high-performance solutions to fundamental questions.
 
 ---
 
-📅 Day 21 – Tree Depth & Structural Equality
+## 📅 Day 21 – Tree Depth & Structural Equality
 
 - ✅ [Maximum Depth of Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-21/maximum_depth_of_binary_tree.py)
 - ✅ [Same Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-21/same_tree.py)
 
 **Notes:**
 Worked on two fundamental binary tree problems. In the first, computed the maximum depth of a binary tree by recursively exploring both subtrees and returning `1 + max(left, right)`, ensuring every node is visited exactly once and the longest path from root to leaf is measured. In the second, determined whether two trees are identical by recursively comparing node values and structure in parallel, confirming equality only when both subtrees matched completely. These problems reinforce core DFS recursion patterns on trees, emphasizing structural traversal and balanced handling of base cases.
+
+---
+
+## 📅 Day 22 – Binary Tree Symmetry & Inversion
+- ✅ [Symmetric Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-22/symmetric_tree.py)
+- ✅ [Invert Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-22/invert_binary_tree.py#)
+
+**Notes:** Focused on structural transformations of binary trees. In the first problem, checked whether a binary tree is symmetric by recursively comparing mirrored node pairs from the left and right subtrees, ensuring both values and structures matched in a mirror-like fashion. In the second, inverted the binary tree by recursively swapping the left and right children of each node, propagating local changes into a complete tree-wide transformation. Together, these problems emphasize recursive divide-and-conquer strategies, mirrored traversals, and how small, consistent operations applied at each node can globally reshape a tree.

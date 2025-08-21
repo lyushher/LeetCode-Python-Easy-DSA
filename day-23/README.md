@@ -1,4 +1,4 @@
-# Day 23 
+# Day - 23 
 ## ⭐️ Path Sum – 23.1
 ### 🔗 Problem
 [LeetCode #112 – Path Sum](https://leetcode.com/problems/path-sum/)

@@ -204,3 +204,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Invert Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-22/invert_binary_tree.py#)
 
 **Notes:** Focused on structural transformations of binary trees. In the first problem, checked whether a binary tree is symmetric by recursively comparing mirrored node pairs from the left and right subtrees, ensuring both values and structures matched in a mirror-like fashion. In the second, inverted the binary tree by recursively swapping the left and right children of each node, propagating local changes into a complete tree-wide transformation. Together, these problems emphasize recursive divide-and-conquer strategies, mirrored traversals, and how small, consistent operations applied at each node can globally reshape a tree.
+
+---
+
+## 📅 Day 23 – Tree Path & Balance Checks
+- ✅ [Path Sum](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-23/path_sum.py)
+- ✅ [Balanced Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-23/balanced_binary_tree.py)
+
+**Notes:** Tackled two classic DFS-based binary tree problems. In the first, determined whether a root-to-leaf path exists that sums to a given target by recursively subtracting node values and checking at leaves if the remaining sum matches — ensuring every potential path is explored. In the second, verified if a binary tree is height-balanced by combining height calculation with balance checks in a single bottom-up traversal; each node contributes `1 + max(left, right)` if balanced, or fails early when imbalance is detected. Both problems highlight the efficiency of recursion in handling cumulative path constraints and structural validation with linear O(n) traversal.

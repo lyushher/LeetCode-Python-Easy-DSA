@@ -212,3 +212,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Balanced Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-23/balanced_binary_tree.py)
 
 **Notes:** Tackled two classic DFS-based binary tree problems. In the first, determined whether a root-to-leaf path exists that sums to a given target by recursively subtracting node values and checking at leaves if the remaining sum matches — ensuring every potential path is explored. In the second, verified if a binary tree is height-balanced by combining height calculation with balance checks in a single bottom-up traversal; each node contributes `1 + max(left, right)` if balanced, or fails early when imbalance is detected. Both problems highlight the efficiency of recursion in handling cumulative path constraints and structural validation with linear O(n) traversal.
+
+---
+
+## 📅 Day 24 – Binary Tree Depth & Range Sum
+- ✅ [Minimum Depth of Binary Tree](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-24/minimum_depth_of_binary_tree.py)
+- ✅ [Range Sum of BST](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-24/range_sum_of_bst.py)
+
+**Notes:** Practiced two BST-focused problems that emphasize recursion and pruning. In the first, computed the minimum depth of a binary tree by carefully handling cases where one child is null, ensuring that only true leaf paths are counted. This avoids incorrectly returning zero for incomplete subtrees. In the second, optimized the sum of node values within a given range by leveraging the BST property to prune unnecessary branches: skipping the left subtree if the node value is too small, or the right if it’s too large. Both problems highlight efficient recursive traversal strategies that reduce unnecessary computation while maintaining clarity and correctness.

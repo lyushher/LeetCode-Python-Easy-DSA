@@ -252,3 +252,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Keyboard Row](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-28/keyboard_row.py)
 
 **Notes:** Focused on string scanning and set-based filtering. For the first problem, derived the longest shared prefix by comparing the first word character-by-character against all others and stopping at the earliest mismatch, enabling early termination with O(S) time and O(1) space. For the second, modeled each keyboard row as a fixed set and tested whether each word’s character set was a subset of any row, returning only those typable from a single row; this keeps the solution simple and fast with O(n·k) time and constant extra space.
+
+---
+
+## 📅 Day 29 – Substrings & Range Summaries
+- ✅ [Longest Substring Without Repeating Characters](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-29/longest_substring_without_repeating_characters.py)
+- ✅ [Summary Ranges](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-29/summary_ranges.py)
+
+**Notes:** Practiced sliding window and range summarization techniques. In the first problem, maintained a dynamic window with two pointers and a hash map of last seen indices to efficiently handle duplicates, ensuring each substring remained unique and updating the maximum length in O(n) time. In the second, summarized consecutive integer ranges by tracking the start of each segment and recording either a single number or a "start->end" range whenever continuity broke, finishing with the final segment. These problems reinforced mastery of sliding windows, index tracking, and array scanning patterns.

@@ -236,3 +236,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Find All Numbers Disappeared in an Array](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-26/find_all_numbers_disappeared_in_an_array.py)
  
 **Notes:** Focused on in-place array manipulation techniques. In the first problem, efficiently pushed all zeroes to the end while preserving the order of non-zero elements using a two-pointer approach that overwrites non-zero values forward and fills the rest with zeros, achieving O(n) time and O(1) space. In the second, identified all missing numbers in the range [1, n] by marking visited indices via sign flipping, then collecting positions that remained positive as the missing values. Both problems reinforced the use of index-based logic and in-place modifications to optimize space while keeping solutions linear in time.
+
+---
+
+## 📅 Day 27 – Ranking & Character Difference
+- ✅ [Relative Ranks](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-27/relative_ranks.py)
+- ✅ [Find the Difference](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-27/find_the_difference.py)
+
+**Notes:** Solved two array and string-based problems. In the first, assigned medals and ranks by pairing scores with original indices, sorting in descending order, and mapping top performers to medals while giving numeric ranks to the rest, ensuring results were restored to the input order. In the second, detected the extra character between two strings by applying XOR across all characters, leveraging the property that identical values cancel out and leaving only the added character. Both problems highlight efficient use of sorting, indexing, and bitwise operations to reduce time and space complexity.

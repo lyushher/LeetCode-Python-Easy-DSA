@@ -220,3 +220,19 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Range Sum of BST](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-24/range_sum_of_bst.py)
 
 **Notes:** Practiced two BST-focused problems that emphasize recursion and pruning. In the first, computed the minimum depth of a binary tree by carefully handling cases where one child is null, ensuring that only true leaf paths are counted. This avoids incorrectly returning zero for incomplete subtrees. In the second, optimized the sum of node values within a given range by leveraging the BST property to prune unnecessary branches: skipping the left subtree if the node value is too small, or the right if it’s too large. Both problems highlight efficient recursive traversal strategies that reduce unnecessary computation while maintaining clarity and correctness.
+
+---
+
+## 📅 Day 25 – Complete Trees & Leaf Sequences
+- ✅ [Count Complete Tree Nodes](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-25/count_complete_tree_nodes.py)
+- ✅ [Leaf-Similar Trees](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-25/leaf_similar_trees.py)
+
+**Notes:** Counted nodes in a complete binary tree without traversing every node by comparing left/right subtree heights; when heights match, the left subtree is a perfect tree contributing 2^h − 1 nodes and we recurse on the right, otherwise the right is perfect and we recurse on the left—yielding an efficient divide-and-conquer solution with O((log n)²) time and O(log n) space. Then verified leaf similarity of two trees by performing DFS to extract the left-to-right leaf sequences and comparing them for equality, emphasizing order and values while ignoring internal structure; this runs in O(n + m) time with O(h₁ + h₂) stack usage.
+
+---
+
+## 📅 Day 26 – Array Manipulation & Missing Numbers
+- ✅ [Move Zeroes](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-26/move_zeroes.py)
+- ✅ [Find All Numbers Disappeared in an Array](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-26/find_all_numbers_disappeared_in_an_array.py)
+ 
+**Notes:** Focused on in-place array manipulation techniques. In the first problem, efficiently pushed all zeroes to the end while preserving the order of non-zero elements using a two-pointer approach that overwrites non-zero values forward and fills the rest with zeros, achieving O(n) time and O(1) space. In the second, identified all missing numbers in the range [1, n] by marking visited indices via sign flipping, then collecting positions that remained positive as the missing values. Both problems reinforced the use of index-based logic and in-place modifications to optimize space while keeping solutions linear in time.

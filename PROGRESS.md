@@ -244,3 +244,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Find the Difference](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-27/find_the_difference.py)
 
 **Notes:** Solved two array and string-based problems. In the first, assigned medals and ranks by pairing scores with original indices, sorting in descending order, and mapping top performers to medals while giving numeric ranks to the rest, ensuring results were restored to the input order. In the second, detected the extra character between two strings by applying XOR across all characters, leveraging the property that identical values cancel out and leaving only the added character. Both problems highlight efficient use of sorting, indexing, and bitwise operations to reduce time and space complexity.
+
+---
+
+## 📅 Day 28 – String Prefix & Keyboard Row
+- ✅ [Longest Common Prefix](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-28/longest_common_prefix.py)
+- ✅ [Keyboard Row](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-28/keyboard_row.py)
+
+**Notes:** Focused on string scanning and set-based filtering. For the first problem, derived the longest shared prefix by comparing the first word character-by-character against all others and stopping at the earliest mismatch, enabling early termination with O(S) time and O(1) space. For the second, modeled each keyboard row as a fixed set and tested whether each word’s character set was a subset of any row, returning only those typable from a single row; this keeps the solution simple and fast with O(n·k) time and constant extra space.

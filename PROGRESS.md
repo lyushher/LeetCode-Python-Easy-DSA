@@ -260,3 +260,11 @@ Worked on two fundamental binary tree problems. In the first, computed the maxim
 - ✅ [Summary Ranges](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-29/summary_ranges.py)
 
 **Notes:** Practiced sliding window and range summarization techniques. In the first problem, maintained a dynamic window with two pointers and a hash map of last seen indices to efficiently handle duplicates, ensuring each substring remained unique and updating the maximum length in O(n) time. In the second, summarized consecutive integer ranges by tracking the start of each segment and recording either a single number or a "start->end" range whenever continuity broke, finishing with the final segment. These problems reinforced mastery of sliding windows, index tracking, and array scanning patterns.
+
+---
+
+## 📅 Day 30 – Design & String Manipulation
+- ✅ [Design Parking System](https://github.com/lyushher/LeetCode-Python-Easy-DSA/tree/main/day-30)
+- ✅ [Reverse Words in a String III](https://github.com/lyushher/LeetCode-Python-Easy-DSA/blob/main/day-30/reverse_words_in_a_string_iii.py)
+
+**Notes:** Wrapped up the 30-day challenge with two diverse problems. In the first, implemented a simple yet efficient parking system design by maintaining counters for big, medium, and small slots, achieving constant-time operations with minimal space. In the second, manipulated strings by splitting a sentence into words, reversing each word individually, and rejoining them, ensuring word order remained intact while character order flipped within each word. Together these problems reinforced mastery of clean O(1) design logic and common string processing patterns.
